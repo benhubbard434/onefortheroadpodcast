@@ -5,7 +5,7 @@
 <h3>Latest episode</h3>
 
 <ul>
-  {% for post in site.posts|limit:1 %}
+  {% for post in site.posts | limit:1 %}
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
     </li>
