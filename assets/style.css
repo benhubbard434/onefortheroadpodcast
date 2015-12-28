@@ -88,6 +88,7 @@ p, a {
 }
 .menu li {
 	float: left;
+	width: 50%;
 }
 .menu li a {
 	font-family: 'Open Sans', sans-serif;
