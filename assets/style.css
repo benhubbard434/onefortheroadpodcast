@@ -68,3 +68,6 @@ p, a {
   max-width: 960px;
   padding: 20px;
 }
+.logo {
+	max-width: 250px;
+}
