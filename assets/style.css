@@ -70,6 +70,9 @@ p, a {
 }
 .logo {
 	max-width: 250px;
+	display: block;
+	width: 95%;
+	margin: 0 auto;
 }
 .third {
 	width: 33.33333%;
@@ -77,3 +80,4 @@ p, a {
 }
 .clear {
 	clear: both;
+}
