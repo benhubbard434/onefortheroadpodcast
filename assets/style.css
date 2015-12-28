@@ -98,3 +98,8 @@ p, a {
 	color: black;
 	text-decoration: none;
 }
+.twitter {
+	padding: 40px;
+	border: 6px solid #b1a1bc;
+	border-radius: 2px;
+}
