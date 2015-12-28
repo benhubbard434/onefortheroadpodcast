@@ -85,7 +85,7 @@ c.push(b);d++}B(c);y=!1;0<w.length&&(L.fetch(w[0]),w.splice(0,1))}};return windo
 // id "example1". Also automatically hyperlinks URLS and user mentions and
 // hashtags.
 var config1 = {
-  "id": '345170787868762112',
+  "id": '572122428718211072',
   "domId": 'tweets',
   "maxTweets": 1,
   "enableLinks": true,
