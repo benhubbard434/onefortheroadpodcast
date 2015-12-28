@@ -71,3 +71,9 @@ p, a {
 .logo {
 	max-width: 250px;
 }
+.third {
+	width: 33.33333%;
+	float: left;
+}
+.clear {
+	clear: both;
