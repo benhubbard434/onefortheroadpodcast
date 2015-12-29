@@ -67,6 +67,7 @@ p, a {
   width: 95%;
   max-width: 960px;
   padding: 20px;
+  box-sizing: border-box;
 }
 .logo {
 	max-width: 250px;
