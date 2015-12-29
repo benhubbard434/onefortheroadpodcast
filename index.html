@@ -16,8 +16,8 @@ layout: default
 <h2>Older episodes</h2>
 
 <ul>
-  {% for post in site.posts | offset:1 %}
-    <li>
+  {% for post in site.posts | offset:1 | limit:3 %}
+    <li class="third">
       <a href="{{ post.url }}"><h4>{{ post.title }}</h4></a>
       <p>{{ post.date | date: "%B %e, %Y" }}</p>
     </li>
