@@ -58,7 +58,7 @@ h4, h5 {
   font-family: 'Vollkorn', serif;
   font-size: 18px;
   line-height: 24px;
-  margin: 20px 0;
+  margin: 20px 0 0 0;
   color: #414042;
 }
 
@@ -67,8 +67,12 @@ p, a {
   font-size: 16px;
   line-height: 24px;
   color: #414042;
-  
 }
+
+.small {
+	font-size: 80%;
+}
+
 img {
 	max-width: 100%;
 }
