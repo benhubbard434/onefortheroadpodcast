@@ -61,7 +61,9 @@ p, a {
   font-size: 16px;
   line-height: 24px;
 }
-
+img {
+	max-width: 100%;
+}
 .container {
   margin: 0 auto;
   width: 95%;
