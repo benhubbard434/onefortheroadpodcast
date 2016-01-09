@@ -21,7 +21,7 @@ layout: default
 <ul>
   {% for post in site.posts | offset:1 | limit:3 %}
     <li class="third">
-      <a href="{{ post.url }}">
+      <a href="{{ post.url }}" class="post">
         <img src="{{ post.photo_url }}" alt="{{ post.title }}">
         <h3>{{ post.title }}</h3>
         <p class="small">{{ post.date | date: "%B %e, %Y" }}</p>
@@ -41,7 +41,7 @@ layout: default
 <ul>
   {% for post in site.posts | offset:4 | limit:3 %}
     <li class="third">
-      <a href="{{ post.url }}">
+      <a href="{{ post.url }}" class="post">
         <img src="{{ post.photo_url }}" alt="{{ post.title }}">
         <h3>{{ post.title }}</h3>
         <p class="small">{{ post.date | date: "%B %e, %Y" }}</p>
