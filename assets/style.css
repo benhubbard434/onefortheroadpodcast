@@ -126,3 +126,7 @@ img {
 	color: #414042;
 	text-decoration: none;
 }
+
+.post:hover {
+	background: #D1D3D4;
+}
