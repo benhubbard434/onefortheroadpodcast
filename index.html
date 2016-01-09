@@ -36,6 +36,10 @@ layout: default
   <div id="tweets"></div>
 </div>
 <div class="clear">
+<div class="instagram">
+  <div id="instafeed"></div>
+</div>
+<div class="clear"></div>
   <h3>More episodes</h3>
 
 <ul>
@@ -50,3 +54,15 @@ layout: default
   {% endfor %}
 </ul>
 </div>
+
+
+
+<script type="text/javascript" src="path/to/instafeed.min.js"></script>
+<script type="text/javascript">
+    var userFeed = new Instafeed({
+        get: 'oftrpodcast',
+        userId: 'da37229e03354b1885ce56c8399553b1',
+        accessToken: '1692223657'
+    });
+    userFeed.run();
+</script>
