@@ -60,11 +60,12 @@ layout: default
 
 
 <script type="text/javascript" src="assets/instafeed.min.js"></script>
+
 <script type="text/javascript">
-    var userFeed = new Instafeed({
-        get: 'oftrpodcast',
-        userId: 'da37229e03354b1885ce56c8399553b1',
-        accessToken: '1692223657'
+    var feed = new Instafeed({
+        get: 'tagged',
+        tagName: 'awesome',
+        clientId: 'da37229e03354b1885ce56c8399553b1'
     });
-    userFeed.run();
+    feed.run();
 </script>
