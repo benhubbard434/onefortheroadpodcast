@@ -39,9 +39,22 @@ layout: default
 
 
 
-<div class="instagram">
-  <div id="insta-feed"></div>
-</div>
+
+<script src="assets/instagram.js"></script>
+<script>
+jQuery(function($) {
+  $('.instagram').on('willLoadInstagram', function(event, options) {
+    console.log(options);
+  });
+  $('.instagram').on('didLoadInstagram', function(event, response) {
+    console.log(response);
+  });
+  $('.instagram').instagram({
+    hash: 'love',
+    clientId: 'cdd0af6b6744431b85106f4bb04836e7'
+  });
+});
+</script>
 <div class="clear"></div>
 
   <h3>More episodes</h3>
