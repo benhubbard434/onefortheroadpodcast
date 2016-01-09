@@ -36,14 +36,19 @@ layout: default
   <div id="tweets"></div>
 </div>
 <div class="clear"></div>
-  
 
-
+<script type="text/javascript" src="assets/instafeed.min.js"></script>
+<script type="text/javascript">
+    var userFeed = new Instafeed({
+        get: 'user',
+        userId: '1692223657',
+        accessToken: 'YOUR_ACCESS_TOKEN'
+    });
+    userFeed.run();
+</script>
 
 <div class="instagram">
-  
-
- 
+  <div class="instafeed"></div>
 </div>
 <div class="clear"></div>
 
