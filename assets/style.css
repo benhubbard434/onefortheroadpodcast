@@ -134,3 +134,6 @@ img {
 	font-size: 80%;
 	margin-right: 5px;
 }
+.tweet img {
+	max-height: 16px;
+}
