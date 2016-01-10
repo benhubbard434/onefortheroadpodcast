@@ -130,7 +130,7 @@ img {
 .post:hover {
 	background: #f7f7f7;
 }
-.interact a {
+.interact a, .timePosted {
 	font-size: 80%;
 	margin-right: 5px;
 }
