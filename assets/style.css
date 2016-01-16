@@ -85,6 +85,12 @@ img {
 	background: #B1A1BC;
 	margin-bottom: 10px;
 }
+.field {
+	width: 85%;
+	padding: 5px 8px;
+	font-size: 14px;
+	border-radius: 2px;
+}
 .container {
   margin: 0 auto;
   width: 95%;
