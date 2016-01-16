@@ -79,10 +79,12 @@ img {
 .footer {
 	background: #DCCEDC;
 	width:100%;
+	margin-top: 10px;
 }
 .mailchimp-holder {
 	background: #B1A1BC;
 	padding: 5px 0;
+	margin-bottom: 10px;
 }
 .container {
   margin: 0 auto;
