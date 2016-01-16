@@ -76,6 +76,14 @@ p, a {
 img {
 	max-width: 100%;
 }
+.footer {
+	background: #DCCEDC;
+	width:100%;
+}
+.mailchimp-holder {
+	background: #B1A1BC;
+	padding: 5px 0;
+}
 .container {
   margin: 0 auto;
   width: 95%;
