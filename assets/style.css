@@ -77,19 +77,22 @@ img {
 	max-width: 100%;
 }
 .footer {
-	background: #DCCEDC;
+	background: #B1A1BC;
 	width:100%;
 	margin-top: 10px;
 }
 .mailchimp-holder {
-	background: #B1A1BC;
+	background: #DCCEDC;
 	margin-bottom: 10px;
 }
 .button {
 	border: 0;
-	background: #DCCEDC;
+	background: #B1A1BC;
 	font-size: 14px;
 	padding: 5px 8px;
+	color: white;
+	cursor: pointer;
+	border-radius: 2px;
 }
 .field {
 	width: 85%;
