@@ -175,3 +175,7 @@ img {
 .tweet img {
 	max-height: 16px;
 }
+iframe {
+	display: block;
+	margin: 0 auto 40px auto;
+}
