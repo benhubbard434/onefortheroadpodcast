@@ -78,6 +78,10 @@ p, a {
   color: #414042;
 }
 
+p {
+	margin-bottom: 20px;
+}
+
 .small {
 	font-size: 80%;
 }
