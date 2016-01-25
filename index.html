@@ -2,10 +2,10 @@
 layout: default
 ---
 
-<h2>Latest episode</h2>
+<h2>Latest episodes</h2>
 
 <ul>
-  {% for post in site.categories.podcast | limit:1 %}
+  {% for post in site.categories.episode | limit:1 %}
     <li>
       <a href="{{ post.url }}">
         <img src="{{ post.photo_url }}" alt="{{ post.title }}">
@@ -16,10 +16,8 @@ layout: default
   {% endfor %}
 </ul>
 
-<h2>More episodes</h2>
-
 <ul>
-  {% for post in site.categories.podcast | offset:1 | limit:3 %}
+  {% for post in site.categories.episode | offset:1 | limit:3 %}
     <li class="third">
       <a href="{{ post.url }}" class="post">
         <img src="{{ post.photo_url }}" alt="{{ post.title }}">
@@ -60,7 +58,7 @@ jQuery(function($) {
   <h3>More episodes</h3>
 
 <ul>
-  {% for post in site.posts | offset:4 | limit:3 %}
+  {% for post in site.categories.blog | offset:4 | limit:3 %}
     <li class="third">
       <a href="{{ post.url }}" class="post">
         <img src="{{ post.photo_url }}" alt="{{ post.title }}">
