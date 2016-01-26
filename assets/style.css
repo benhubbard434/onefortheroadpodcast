@@ -187,3 +187,8 @@ iframe {
 	display: block;
 	margin: 0 auto 40px auto;
 }
+.episode-img {
+	width: 95%;
+	display: block;
+	margin: 0 auto 20px auto;
+}
