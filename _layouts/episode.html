@@ -2,8 +2,10 @@
 <body>
 {% include menu.html %}
   <div class="container">
-    {{ photo_url }}
-<iframe width="900" height="900" src="http://embed.acast.com/onefortheroad/one-for-the-road-episode-five" scrolling="no" frameborder="0" style="border:none;overflow:hidden;"></iframe>
+    <h2>{{ page.title}}</h2>
+    <p class="small">{{ page.date }}</p>
+    {{ page.photo_url }}
+    <iframe width="900" height="900" src="{{ podcast_url}}" scrolling="no" frameborder="0" style="border:none;overflow:hidden;"></iframe>
     {{ content }}
   </div>
   
