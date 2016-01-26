@@ -127,6 +127,10 @@ img {
 	width: 95%;
 	margin: 0 auto;
 }
+.half {
+	width: 50%;
+	float:left;
+}
 .third {
 	width: 33.33333%;
 	float: left;
