@@ -192,3 +192,7 @@ iframe {
 	display: block;
 	margin: 0 auto 20px auto;
 }
+.about-img {
+	max-width: 500px;
+	margin: 10px 0 20px 0;
+}
