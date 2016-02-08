@@ -9,7 +9,7 @@ layout: default
     <li>
       <a href="{{ post.url }}">
         <img src="{{ post.photo_url }}" alt="{{ post.title }}">
-        <h4>{{ post.title }}</h4>
+        <h4>{{ post.title | downcase }}</h4>
         <p class="small">{{ post.date | date: "%B %e, %Y" }}</p>
       </a>
     </li>
@@ -21,7 +21,7 @@ layout: default
     <li class="third">
       <a href="{{ post.url }}" class="post">
         <img src="{{ post.photo_url }}" alt="{{ post.title }}">
-        <h4>{{ post.title }}</h4>
+        <h4>{{ post.title | downcase }}</h4>
         <p class="small">{{ post.date | date: "%B %e, %Y" }}</p>
       </a>
     </li>
