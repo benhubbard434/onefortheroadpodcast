@@ -159,7 +159,8 @@ img {
 	text-align: center;
 }
 .menu li a {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'PT Sans', serif;
+  	font-weight: 700;
 	text-transform: uppercase;
 	color: #414042;
 	text-decoration: none;
