@@ -7,7 +7,7 @@ layout: default
 <ul>
   {% for post in site.categories.episode | limit:1 %}
     <li>
-      <a href="{{ post.url }}">
+      <a href="{{ post.url }}" class="post">
         <img src="{{ post.photo_url }}" alt="{{ post.title }}">
         <h4>{{ post.title | downcase }}</h4>
         <p class="small">{{ post.date | date: "%B %e, %Y" }}</p>
