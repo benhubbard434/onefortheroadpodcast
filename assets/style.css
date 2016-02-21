@@ -127,7 +127,7 @@ img {
   	box-sizing: border-box;
 }
 .top .container {
-	padding: 5px;
+	padding: 10px 0;
 }
 .logo {
 	max-width: 250px;
@@ -232,6 +232,6 @@ iframe {
 	background: #B1A1BC;
 }
 .social-icon {
-	height: 20px;
+	height: 15px;
 	margin-left: 10px;
 }
