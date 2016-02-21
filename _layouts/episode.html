@@ -2,9 +2,10 @@
 <body>
 {% include menu.html %}
   <div class="container">
+    {% include social-share.html %}
     <h2>{{ page.title}}</h2>
     <p class="small">{{ page.date | date_to_string }}</p>
-    {% include social-share.html %}
+    
     <iframe width="900" height="900" src="{{ page.podcast_url}}" scrolling="no" frameborder="0" style="border:none;overflow:hidden;"></iframe>
     {{ content }}
   </div>
