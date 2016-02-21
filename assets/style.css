@@ -219,3 +219,9 @@ iframe {
 	padding: 8px 12px;
 	border: 1px solid #ccc;
 }
+.top {
+	background: #B1A1BC;
+}
+.social-icon {
+	height: 40px;
+}
