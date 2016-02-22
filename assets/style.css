@@ -245,3 +245,7 @@ iframe {
 	height: 15px;
 	margin: 5px;
 }
+.social-text {
+	font-size: 10px;
+	margin-bottom: 0;
+}
