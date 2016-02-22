@@ -238,8 +238,9 @@ iframe {
 }
 .socialsharebuttons {
 	background: #727069;
+	padding: 0 5px;
 }
 .share-icon {
-	height: 10px;
+	height: 15px;
 	margin: 5px;
 }
