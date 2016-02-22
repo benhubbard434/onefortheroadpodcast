@@ -236,3 +236,10 @@ iframe {
 	height: 18px;
 	margin-left: 10px;
 }
+.socialsharebuttons {
+	background: #727069;
+}
+.share-icon {
+	height: 10px;
+	margin: 5px;
+}
