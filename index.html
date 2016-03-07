@@ -29,40 +29,25 @@ layout: default
 </ul>
 
 <div class="clear"></div>
-<div class="twitter">
+<!--<div class="twitter">
   
   <div id="tweets"></div>
 </div>
-<div class="clear"></div>
+<div class="clear"></div>-->
 
 
 
 
-<script src="assets/instagram.js"></script>
-<script>
-jQuery(function($) {
-  $('.instagram').on('willLoadInstagram', function(event, options) {
-    console.log(options);
-  });
-  $('.instagram').on('didLoadInstagram', function(event, response) {
-    console.log(response);
-  });
-  $('.instagram').instagram({
-    hash: 'love',
-    clientId: 'cdd0af6b6744431b85106f4bb04836e7'
-  });
-});
-</script>
-<div class="clear"></div>
+
 
   <!--<h3>From the blog</h3>-->
 
 <ul>
-  {% for post in site.categories.blog | offset:4 | limit:3 %}
+  {% for post in site.categories.episode | offset:1 | limit:3 %}
     <li class="third">
       <a href="{{ post.url }}" class="post">
         <img src="{{ post.photo_url }}" alt="{{ post.title }}">
-        <h4>{{ post.title }}</h4>
+        <h4>{{ post.title | downcase }}</h4>
         <p class="small">{{ post.date | date: "%B %e, %Y" }}</p>
       </a>
     </li>
