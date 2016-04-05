@@ -234,10 +234,9 @@ iframe {
 }
 .social-text {
 	margin-bottom: 0;
-	width: 150px;
+	
 }
 .social-text p {
-	color: white;
 	margin-bottom: o;
 	font-size: 90%;
 }
@@ -251,6 +250,7 @@ iframe {
 	margin-top: 20px;
 	margin-bottom: 40px;
 	border-radius: 3px;
+	width: 150px;
 }
 .share-icon {
 	height: 15px;
