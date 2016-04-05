@@ -232,6 +232,9 @@ iframe {
 	background: #B1A1BC;
 	margin-bottom: 20px;
 }
+.social-text p {
+	color: white;
+}
 .social-icon {
 	height: 18px;
 	margin-left: 10px;
