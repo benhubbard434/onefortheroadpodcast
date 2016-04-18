@@ -170,7 +170,7 @@ img {
 .menu li a {
 	font-family: 'PT Sans', serif;
   	font-weight: 700;
-	text-transform: uppercase;
+	text-transform: lowercase;
 	color: #414042;
 	text-decoration: none;
 }
