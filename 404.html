@@ -2,6 +2,7 @@
 <html>
 <head>
   <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
   <style>
     body {
       background:url('http://onefortheroadpodcast.com/assets/404.jpeg')no-repeat center center fixed; 
@@ -17,12 +18,14 @@
       border: 0;
       color: black;
       font-family: 'PT Sans', sans-serif;
+      cursor: pointer;
+      font-size: 12px;
     }
   </style>
 </head>
 
 <body>
-<button onclick="goBack()">Go Back</button>
+<button onclick="goBack()"><i class="fa fa-arrow-circle-left" aria-hidden="true"></i> Go Back</button>
 
 <script>
 function goBack() {
