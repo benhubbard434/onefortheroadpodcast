@@ -1,10 +1,10 @@
 ---
-title: 'One For The Road: Episode Twenty Five (on bras - mostyl)'
+title: 'One For The Road: Episode Twenty Five (on bras - mostly)'
 date: 2016-06-13 00:00:00 Z
 categories:
 - episode
 layout: episode
-photo_url: http://onefortheroadpodcast.com/assets/ep25_crop_cover.jpg
+photo_url: http://onefortheroadpodcast.com/assets/ep25_cover_2.jpg
 podcast_url: http://embed.acast.com/onefortheroad/episodetwenty-five-onbras-mostly-
 ---
 
