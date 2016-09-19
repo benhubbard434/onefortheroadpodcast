@@ -1,11 +1,4 @@
 ---
-title: 'One For The Road: S02//E01 - we're back!'
-date: 2016-09-20 00:00:00 Z
-categories:
-- episode
-layout: episode
-photo_url: https://acastprod.blob.core.windows.net/media/v1/b7f406f9-f325-435c-9ce6-7839646b5928/img-0496-itagsk8l.jpg
-podcast_url: http://embed.acast.com/onefortheroad/s02-e01-wereback-
 ---
 
 <p>
